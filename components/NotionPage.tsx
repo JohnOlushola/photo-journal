@@ -28,6 +28,7 @@ import { PageHead } from './PageHead'
 import { Footer } from './Footer'
 
 import styles from './styles.module.css'
+import Header from './Header'
 
 // const Code = dynamic(() =>
 //   import('react-notion-x').then((notion) => notion.Code)
@@ -204,6 +205,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
       <CustomFont site={{ ...site }} />
 
       {isLiteMode && <BodyClassName className='notion-lite' />}
+
+      <Header />
 
       <NotionRenderer
         bodyClassName={cs(

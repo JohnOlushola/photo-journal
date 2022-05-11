@@ -12,6 +12,11 @@
   --notion-header-height: 54px;
 }
 
+.notion-viewport {
+  /* Reset from fixed */
+  position: relative !important;
+}
+
 .notion-page {
   position: relative;
   padding-bottom: calc(max(5vh, 32px)) !important;

@@ -28,8 +28,8 @@ export const Footer: React.FC<{
 
     return (
       <footer className={styles.footer}>
-        <div className={styles.contact}>
-          <div className={styles.office}>
+        {/* <div className={styles.contact}> */}
+        {/* <div className={styles.office}>
             <p>Head Office</p>
             <h3>
               5th Floor, Centage Plaza, 14 Allen Avenue, Ikeja, Lagos, Nigeria.
@@ -42,7 +42,7 @@ export const Footer: React.FC<{
             </h3>
           </div>
           <div className={styles.copyright}>Copyright 2021 {config.author}</div>
-        </div>
+        </div> */}
 
         {/* {hasMounted ? (
         <div className={styles.settings}>
