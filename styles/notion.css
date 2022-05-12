@@ -40,6 +40,18 @@
   margin-bottom: 1em;
 }
 
+/* Add border to images */
+.notion-asset-wrapper-image {
+  border: 3px solid var(--fg-color);
+  /* make image black and white */
+  filter: grayscale(40%);
+}
+.notion-asset-wrapper-image:hover {
+  /* make image brighter */
+  border-color: var(--fg-color-0);
+  filter: brightness(1.05);
+}
+
 /* <-- Fix embedded video's size overflows its container */
 .notion-asset-wrapper-video > div,
 .notion-asset-wrapper-video video {
